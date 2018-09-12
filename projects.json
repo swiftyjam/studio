@@ -1,0 +1,189 @@
+{
+  "projects": [
+    {
+      "title": "OnRails Trains and TFL",
+      "client": "Integrated Software Development ltd.",
+      "product": "Transport and Schedule",
+      "category": "App",
+      "desc": "The app displays live departure and arrival times for the next two hours for all stations in the UK. Mark favorites view recently departed services and get live station information from the national rail feed. Useful details like a number of coaches, platform number and reasons for delay or cancellation are shown where available.\n\nData is provided under license from National Rail. A TFL tube status screen is also available for London commuters.",
+      "done": [
+        "Branding",
+        "App UX/UI"
+      ],
+      "team": [
+        "Swifty Jam",
+        "Awais Zaka"
+      ],
+      "gallery": [
+        [
+          "projects/onrails/pics/onra1.png"
+        ],
+        [
+          "projects/onrails/pics/onra2.png",
+          "projects/onrails/pics/onra3.png",
+          "projects/onrails/pics/onra4.png"
+        ],
+        [
+          "projects/onrails/pics/onra5.png",
+          "projects/onrails/pics/onra6.png"
+        ],
+        [
+          "projects/onrails/pics/onra7.png",
+          "projects/onrails/pics/onra8.png",
+          "projects/onrails/pics/onra9.png",
+          "projects/onrails/pics/onra10.png"
+        ]
+      ],
+      "timeline": "3 weeks",
+      "logo": "projects/wekul/pics/logo.svg",
+      "bg": "projects/onrails/pics/onra1.png",
+      "maincolor": "71,77,116",
+      "linkdesc": "We developed a full UX UI design for OnRails.",
+      "keywords": "Design, Web, UX, UI, Branding, App"
+    },
+    {
+      "title": "Shop for the nature",
+      "client": "Wekult",
+      "product": "E-commerce",
+      "category": "Web",
+      "desc": "We developed a full brand project for this company. Wekult is a company related with natural products that wants to be innovative and scientificaly advanced on the field, without losing the essence. We tryed to reflect this through this brand and web design.",
+      "done": [
+        "Branding",
+        "Website",
+        "Merch"
+      ],
+      "team": [
+        "Swifty Jam",
+        "Hector R."
+      ],
+      "gallery": [
+        [
+          "projects/wekult/pics/wek1.png",
+          "projects/wekult/pics/wek2.png"
+        ],
+        [
+          "projects/wekult/pics/wek3.png",
+          "projects/wekult/pics/wek4.png",
+          "projects/wekult/pics/wek5.png",
+          "projects/wekult/pics/wek6.png"
+        ],
+        [
+          "projects/wekult/pics/wek7.png"
+        ],
+        [
+          "projects/wekult/pics/wek8.png",
+          "projects/wekult/pics/wek9.png",
+          "projects/wekult/pics/wek10.png"
+        ]
+      ],
+      "timeline": "2 weeks",
+      "logo": "projects/wekult/pics/logo.svg",
+      "bg": "projects/wekult/pics/wek1.png",
+      "maincolor": "139,195,74",
+      "linkdesc": "We developed a full brand project for this company.",
+      "keywords": "Design, Web, UX, UI, Branding, Ecommerce"
+    },
+    {
+      "title": "Sennheiser (Un-Official)",
+      "client": "Simulate",
+      "product": "Product Presentation",
+      "category": "Design",
+      "desc": "When I made the 3D model and rendering of the Sennheiser URBANITE, I wanted to recreate a clean product brochure. I used image blending modes as the protagonist style of the brochure while representing the solidness and endurance of the product comparing it to the massive and untamable environments of earth, including the city.",
+      "done": [
+        "Graphic Design",
+        "3D Design"
+      ],
+      "team": [
+        "Swifty Jam"
+      ],
+      "gallery": [
+        [
+          "projects/urbanite/pics/sen1.jpg",
+          "projects/urbanite/pics/sen2.jpg"
+        ],
+        [
+          "projects/urbanite/pics/sen3.jpg",
+          "projects/urbanite/pics/sen4.jpg"
+        ],
+        [
+          "projects/urbanite/pics/sen5.jpg",
+          "projects/urbanite/pics/sen6.jpg"
+        ]
+      ],
+      "timeline": "1 week",
+      "logo": "projects/wekul/pics/logo.svg",
+      "bg": "projects/urbanite/pics/sen2.jpg",
+      "maincolor": "38,46,65",
+      "linkdesc": "We developed a Project Presentation for Simulate.",
+      "keywords": "Design, 3D Design, Brochure, Graphic Design"
+    },
+    {
+      "title": "Placed App Website",
+      "client": "Placed ltd.",
+      "product": "Recruitment",
+      "category": "Web",
+      "desc": "Collaborated with the full-stack developer Bill Purvis on the creation of UX/UI and also Front-end of the Placed-app website development. We aimed to create a fluid experience of navigation and clear information. Here you can see the main landing page.",
+      "done": [
+        "Front-end Dev",
+        "UX/UI"
+      ],
+      "team": [
+        "Swifty Jam",
+        "Bill Purvis"
+      ],
+      "gallery": [
+        [
+          "projects/placed/pics/pla1.png"
+        ]
+      ],
+      "timeline": "1'5 weeks",
+      "logo": "projects/wekul/pics/logo.svg",
+      "bg": "projects/placed/pics/pla1.png",
+      "maincolor": "220,190,0",
+      "linkdesc": "We developed a full UX UI and web development for Placed App.",
+      "keywords": "Design, Web, UX, UI, Front End, Placed App"
+    },
+    {
+      "title": "Back In the Dayz",
+      "client": "Swifty Jam",
+      "product": "Illustration Add",
+      "category": "Design",
+      "desc": "Made this illustration in honour of Nintendo. A fan art that we use to represent ourselves and what can we do testing our limits.  We do this often!",
+      "done": [
+        "3D Modeling",
+        "Editing"
+      ],
+      "team": [
+        "Swifty Jam"
+      ],
+      "gallery": [
+        [
+          "projects/bitd/pics/bitd1.jpg"
+        ],
+        [
+          "projects/bitd/pics/bitd2.png",
+          "projects/bitd/pics/bitd3.png"
+        ],
+        [
+          "projects/bitd/pics/bitd4.png",
+          "projects/bitd/pics/bitd5.png",
+          "projects/bitd/pics/bitd6.png"
+        ],
+        [
+          "projects/bitd/pics/bitd7.png",
+          "projects/bitd/pics/bitd8.png",
+          "projects/bitd/pics/bitd9.png"
+        ],
+        [
+          "projects/bitd/pics/bitd10.png"
+        ]
+      ],
+      "timeline": "1'5 weeks",
+      "logo": "none",
+      "bg": "projects/bitd/pics/bitd1.jpg",
+      "maincolor": "42,56,75",
+      "linkdesc": "We developed a full self-purposed Add Illustration.",
+      "keywords": "Design, 3D, Illustration, Lettering"
+    }
+  ]
+}

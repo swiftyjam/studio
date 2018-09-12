@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__localhost"><head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="rgb(0, 0, 0)">
+  <meta name="apple-mobile-web-app-status-bar-style" content="rgb(255, 83, 36)">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="data/fav0.png" id="favi">
+</head>
+<body onload="showPage()" >
+  <div id="loader2" style="transition: 0.5s; "><div id="load_text"><span>I'M LOADING...</span></div></div>
+  <nav class="menu" id="hooke">
+    <a class="menu__logo" href="#">
+      <img src="data/personal_logo.svg">
+    </a>
+    <div class="menu__options" >
+      <div class="menu__bg">
+        <ul>
+          <li><a href="index.html">INTRO</a>
+          <svg class="menu__flag" height="30" width="20">
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+          </svg></li>
+          <li><a href="projects.html" >WORK</a>
+          <svg class="menu__flag" height="30" width="20" style="opacity:1">
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+          </svg></li>
+          <li><a href="me.html" >WHO</a>
+          <svg class="menu__flag" height="30" width="20">
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+          </svg></li>
+          <li><a href="contact.html">CONTACT</a>
+          <svg class="menu__flag" height="30" width="20">
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+          </svg></li>
+          <!-- contact button mobile -->
+          <li class="connect_m"> <a class="menu__connect mobile" href="#">
+            <img src="data/126495.svg">
+          </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu__button"><img class="rotate" src="data/arrow.svg"></div>
+    <a class="menu__connect" href="#">
+      <img src="data/126495.svg">
+    </a>
+  </nav>
+  <main id="enganchoproject">
+    <!-- CENTERED -->
+    <section class="projectIntro">
+      <div class="pr__container">
+        <div class="project__specs">
+          <div class="p_spec">
+            <h3>DONE</h3>
+            <ul>
+              <li>Branding</li>
+              <li>Website</li>
+              <li>Merchandising</li>
+            </ul>
+          </div>
+          <div class="p_spec">
+            <h3>TEAM</h3>
+            <ul>
+              <li>Samuel J.</li>
+              <li>Hector R.</li>
+            </ul>
+          </div>
+          <div class="p_spec">
+            <h3>TIMELINE</h3>
+            <ul>
+              <li>2 Weeks</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="project__description">
+          <h3>Wekult</h3>
+          <h1>E-commerce for
+          the nature.</h1>
+          <p>We developed a full brand project for this company. Wekult is a company related with natural products that wants to be innovative and scientificaly advanced on the field, without losing the essence. We tryed to reflect this through this brand and web design. </p>
+        </div>
+      </div>
+    </section>
+    <section class="projectGallery">
+      <div>
+        <a href="#"><img src="projects/wekult/pics/wek1.png" alt=""></a>
+        <a href="#"><img src="projects/wekult/pics/wek2.png" alt=""></a>
+      </div>
+      <div>
+        <a href="#"><img src="projects/wekult/pics/wek3.png" alt=""></a>
+        <a href="#"><img src="projects/wekult/pics/wek4.png" alt=""></a>
+        <a href="#"><img src="projects/wekult/pics/wek5.png" alt=""></a>
+        <a href="#"><img src="projects/wekult/pics/wek6.png" alt=""></a>
+      </div>
+    </section>
+    
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="tilt.js-master/dest/tilt.jquery.js"></script>
+  <script type="text/javascript">
+    loadProject();
+  function showPage(){
+  document.getElementById("loader2").style.opacity=0,myVar=setTimeout(loaderoff,1e3)
+  }
+  function loaderoff(){
+  document.getElementById("loader2").style.display="none"
+  }
+  var myVar
+  </script>
+</body></html>
