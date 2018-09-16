@@ -1,155 +1,309 @@
-<!DOCTYPE html>
-<html lang="en" class="gr__localhost"><head>
-  <meta charset="UTF-8">
-  <meta name="theme-color" content="rgb(0, 0, 0)">
-  <meta name="apple-mobile-web-app-status-bar-style" content="rgb(255, 83, 36)">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
-  <meta name="keywords" content="Design,studio,Graphic design, Diseño gafico,samuel,javaloyes,3d,design,graphic">
-  <link rel="shortcut icon" type="image/png" href="data/fav0.png" id="favi">
-  <meta property="og:title" content="Swifty Jam, Design">
-  <meta property="og:description" content="Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
-  <meta property="og:image" content="data/profile.png">
-  <meta property="og:url" content="index.html">
-  <meta name="twitter:title" content="Swifty Jam, Design">
-  <meta name="twitter:description" content=" Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
-  <meta name="twitter:image" content="data/profile.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <title>Swifty Jam</title>
-</head>
-<body onload="showPage()" >
-  <div id="loader2" style="transition: 0.5s; "><div id="load_text"><span>I'M LOADING...</span></div></div>
-  <nav class="menu" >
-    <a class="menu__logo" href="#">
-      <img src="data/personal_logo.svg">
-    </a>
-    <div class="menu__options" >
-      <div class="menu__bg">
-        <ul>
-          <li><a href="index.html" >INTRO</a>
-          <svg class="menu__flag" height="30" width="20" style="opacity:1">
-            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
-          </svg></li>
-          <li><a href="projects.html">WORK</a>
-          <svg class="menu__flag" height="30" width="20" >
-            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
-          </svg></li>
-          <li><a href="me.html" >WHO</a>
-          <svg class="menu__flag" height="30" width="20">
-            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
-          </svg></li>
-          <li><a href="contact.html">CONTACT</a>
-          <svg class="menu__flag" height="30" width="20">
-            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
-          </svg></li>
-          <!-- contact button mobile -->
-          <li class="connect_m"> <a class="menu__connect mobile" href="https://www.addtoany.com/share_save?linkurl=http://javaloy.com">
-            <img src="data/126495.svg">
-          </a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="menu__button"><img class="rotate" src="data/arrow.svg"></div>
-    <a class="menu__connect" href="https://www.addtoany.com/share_save?linkurl=http://javaloy.com">
-      <img src="data/126495.svg">
-    </a>
-  </nav>
-  <main>
-    <!-- CENTERED -->
-    <section class="landingCard " style="z-index: 3;">
-      <!--      <img class="decor dec-left" src="data/liquid1.png" alt="liquid">
-      <img class="decor dec-right" src="data/liquid1.png" alt="liquid"> -->
-      <div class="landingCard__container lc-center">
-        <div class="landingCard__text">
-          <h1>Welcome to your creative house.</h1>
-          <div class="landingCard__text__desc">
-            <p>From now on this is the place where <br>
-            you will grow your ideas.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- LEFT ALIGNED -->
-    <section id="" class="landingCard" style="z-index: 2">
-      <!--       <img class="decor dec-left hide-pc" src="data/liquid2O.png" alt="liquid">
-      <img class="decor dec-right hide-pc" src="data/liquid2O.png" alt="liquid"> -->
-      <div class="landingCard__container lc-left">
-        <div class="landingCard__text">
-          <h1>We do design.</h1>
-          <div class="landingCard__text__desc">
-            <p>   <strong> Graphic Design, Animation, 3D Design, UX/UI, Branding, Web Dev and much more. </strong></p>
-          </div>
-        </div>
-      </div>
-      <div class="landingCard__container lc-right">
-        <div class="landingCard__visual">
-          <!-- <img src="data/panda.gif" alt=""> -->
-          
-          <img src="data/iMac_2.png" alt="">
-        </div>
-      </div>
-    </section>
-    <!-- RIGHT ALIGNED -->
-    <section id="" class="landingCard lc-invert-order" style="z-index: 2">
-      <!-- <img class="decor dec-left hide-mob" src="data/liquid2O.png" alt="liquid"> -->
-      <!--  <img class="decor dec-right hide-pc" src="data/liquid2O.png" alt="liquid"> -->
-      <div class="landingCard__container lc-right">
-        <div class="landingCard__text">
-          <h1>We barely use Microsoft Paint</h1>
-          <div class="landingCard__text__desc">
-            <p> <strong> We use the latest tools to bring up the best results, and get the job done! </strong></p>
-          </div>
-        </div>
-      </div>
-      <div class="landingCard__container lc-left">
-        <div class="landingCard__visual">
-          <!-- <img src="data/street.gif" alt=""> -->
-          <img src="data/iPhone_2.png" alt="">
-        </div>
-      </div>
-      
-      
-    </section>
-    <div class="area">
-      <ul class="circles">
-        <!-- <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li>
-        <li><img src="data/leaf.gif"></li> -->
-        <li><p>Design</p></li>
-        <li><p>UX/UI</p></li>
-        <li><p>Web</p></li>
-        <li><p>Print</p></li>
-        <li><p>Ideas</p></li>
-        <li><p>Creativity</p></li>
-        <li><p>Efficient</p></li>
-        <li><p>Cool</p></li>
-        <li><p>Product</p></li>
-        <li><p>Colour</p></li>
-        <li><p>Motion</p></li>
-      </ul>
-    </div>
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="tilt.js-master/dest/tilt.jquery.js"></script>
-  <script type="text/javascript">
-  function showPage(){
-  document.getElementById("loader2").style.opacity=0,myVar=setTimeout(loaderoff,1e3)
-  }
-  function loaderoff(){
-  document.getElementById("loader2").style.display="none"
-  }
-  var myVar
-  </script>
+<!DOCTYPE html>
+
+<html lang="en" class="gr__localhost"><head>
+
+  <meta charset="UTF-8">
+
+  <meta name="theme-color" content="rgb(0, 0, 0)">
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="rgb(255, 83, 36)">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="description" content="Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
+
+  <meta name="keywords" content="Design,studio,Graphic design, Diseño gafico,samuel,javaloyes,3d,design,graphic">
+
+  <link rel="shortcut icon" type="image/png" href="data/fav0.png" id="favi">
+
+  <meta property="og:title" content="Swifty Jam, Design">
+
+  <meta property="og:description" content="Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
+
+  <meta property="og:image" content="data/profile.png">
+
+  <meta property="og:url" content="index.html">
+
+  <meta name="twitter:title" content="Swifty Jam, Design">
+
+  <meta name="twitter:description" content=" Design studio, we pick your ideas and bring them to real life: Branding, UX/UI, Motion Graphics, Art, Print, 3D ">
+
+  <meta name="twitter:image" content="data/profile.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Swifty Jam</title>
+
+</head>
+
+<body onload="showPage()" >
+
+  <div id="loader2" style="transition: 0.5s; "><div id="load_text"><span>I'M LOADING...</span></div></div>
+
+  <nav class="menu" >
+
+    <a class="menu__logo" href="index.html">
+
+      <img src="data/personal_logo.svg">
+
+    </a>
+
+    <div class="menu__options" >
+
+      <div class="menu__bg">
+
+        <ul>
+
+          <li><a href="index.html" >INTRO</a>
+
+          <svg class="menu__flag" height="30" width="20" style="opacity:1">
+
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+
+          </svg></li>
+
+          <li><a href="projects.html">WORK</a>
+
+          <svg class="menu__flag" height="30" width="20" >
+
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+
+          </svg></li>
+
+          <li><a href="me.html" >WHO</a>
+
+          <svg class="menu__flag" height="30" width="20">
+
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+
+          </svg></li>
+
+          <li><a href="contact.html">CONTACT</a>
+
+          <svg class="menu__flag" height="30" width="20">
+
+            <circle cx="10" cy="20" r="6" stroke="black" fill="black"></circle>
+
+          </svg></li>
+
+          <!-- contact button mobile -->
+
+          <li class="connect_m"> <a class="menu__connect mobile" href="https://www.addtoany.com/share_save?linkurl=http://javaloy.com">
+
+            <img src="data/126495.svg">
+
+          </a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="menu__button"><img class="rotate" src="data/arrow.svg"></div>
+
+    <a class="menu__connect" href="https://www.addtoany.com/share_save?linkurl=http://javaloy.com">
+
+      <img src="data/126495.svg">
+
+    </a>
+
+  </nav>
+
+  <main>
+
+    <!-- CENTERED -->
+
+    <section class="landingCard " style="z-index: 3;">
+
+      <!--      <img class="decor dec-left" src="data/liquid1.png" alt="liquid">
+
+      <img class="decor dec-right" src="data/liquid1.png" alt="liquid"> -->
+
+      <div class="landingCard__container lc-center">
+
+        <div class="landingCard__text">
+
+          <h1>Welcome to your creative house.</h1>
+
+          <div class="landingCard__text__desc">
+
+            <p>From now on this is the place where <br>
+
+            you will grow your ideas.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- LEFT ALIGNED -->
+
+    <section id="" class="landingCard" style="z-index: 2">
+
+      <!--       <img class="decor dec-left hide-pc" src="data/liquid2O.png" alt="liquid">
+
+      <img class="decor dec-right hide-pc" src="data/liquid2O.png" alt="liquid"> -->
+
+      <div class="landingCard__container lc-left">
+
+        <div class="landingCard__text">
+
+          <h1>We do design.</h1>
+
+          <div class="landingCard__text__desc">
+
+            <p>   <strong> Graphic Design, Animation, 3D Design, UX/UI, Branding, Web Dev and much more. </strong></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="landingCard__container lc-right">
+
+        <div class="landingCard__visual">
+
+          <!-- <img src="data/panda.gif" alt=""> -->
+
+          
+
+          <img src="data/iMac_2.png" alt="">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RIGHT ALIGNED -->
+
+    <section id="" class="landingCard lc-invert-order" style="z-index: 2">
+
+      <!-- <img class="decor dec-left hide-mob" src="data/liquid2O.png" alt="liquid"> -->
+
+      <!--  <img class="decor dec-right hide-pc" src="data/liquid2O.png" alt="liquid"> -->
+
+      <div class="landingCard__container lc-right">
+
+        <div class="landingCard__text">
+
+          <h1>We barely use Microsoft Paint</h1>
+
+          <div class="landingCard__text__desc">
+
+            <p> <strong> We use the latest tools to bring up the best results, and get the job done! </strong></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="landingCard__container lc-left">
+
+        <div class="landingCard__visual">
+
+          <!-- <img src="data/street.gif" alt=""> -->
+
+          <img src="data/iPhone_2.png" alt="">
+
+        </div>
+
+      </div>
+
+      
+
+      
+
+    </section>
+
+    <div class="area">
+
+      <ul class="circles">
+
+        <!-- <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li>
+
+        <li><img src="data/leaf.gif"></li> -->
+
+        <li><p>Design</p></li>
+
+        <li><p>UX/UI</p></li>
+
+        <li><p>Web</p></li>
+
+        <li><p>Print</p></li>
+
+        <li><p>Ideas</p></li>
+
+        <li><p>Creativity</p></li>
+
+        <li><p>Efficient</p></li>
+
+        <li><p>Cool</p></li>
+
+        <li><p>Product</p></li>
+
+        <li><p>Colour</p></li>
+
+        <li><p>Motion</p></li>
+
+      </ul>
+
+    </div>
+
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="js/script.js"></script>
+
+  <script src="tilt.js-master/dest/tilt.jquery.js"></script>
+
+  <script type="text/javascript">
+
+  function showPage(){
+
+  document.getElementById("loader2").style.opacity=0,myVar=setTimeout(loaderoff,1e3)
+
+  }
+
+  function loaderoff(){
+
+  document.getElementById("loader2").style.display="none"
+
+  }
+
+  var myVar
+
+  </script>
+
 </body></html>
