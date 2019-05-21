@@ -1,6 +1,5 @@
 {
-  "projects": [
-    {
+  "projects": [{
       "title": "OnRails Trains and TFL",
       "client": "Integrated Software Development ltd.",
       "product": "Transport and Schedule",
@@ -42,6 +41,48 @@
       "keywords": "Design, Web, UX, UI, Branding, App"
     },
     {
+      "title": "Murcia Turistica",
+      "client": "Instituto de Turismo Region de Murcia",
+      "product": "Tourism and Travel",
+      "category": "UX UI, Web, App",
+      "desc": "I had the luck of working with the Tourism Institute of Region de Murcia in this exciting project. Together, we went through all their content and we figured out how to restyle, restructure, rebrand and give a new focus to their UX/UI. The need for providing a cleaner user experience made this website improve their visibility and usability! Congrats team :D",
+      "done": [
+        "Branding",
+        "Web UX/UI",
+        "App UX/UI"
+      ],
+      "team": [
+        "Samuel Javaloyes",
+        "Ariad Consultancy",
+        "Toñi Gallego"
+      ],
+      "gallery": [
+        [
+          "projects/murcia/pics/murci2.png"
+        ],
+        [
+          "projects/murcia/pics/murci4.png",
+          "projects/murcia/pics/murci5.png"
+        ],
+        [
+          "projects/murcia/pics/murci7.png",
+          "projects/murcia/pics/murci6.png",
+          "projects/murcia/pics/murci8.png"
+
+
+        ],
+        [
+          "projects/murcia/pics/murci1.png"
+        ]
+      ],
+      "timeline": "2 months",
+      "logo": "projects/wekul/pics/logo.svg",
+      "bg": "projects/murcia/pics/foto2.png",
+      "maincolor": "53, 205, 225",
+      "linkdesc": "We developed a full UX UI design for Murcia Turistica.",
+      "keywords": "Design, Web, UX, UI, Branding, App"
+    },
+    {
       "title": "Shop for the nature",
       "client": "Wekult",
       "product": "E-commerce",
@@ -58,7 +99,7 @@
       ],
       "gallery": [
         [
-          "projects/wekult/pics/wek1.png",
+          "projects/murcia/pics/wek1.png",
           "projects/wekult/pics/wek2.png"
         ],
         [
