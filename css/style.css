@@ -844,6 +844,17 @@ section.projectIntro {
 .project__description {
     flex: 1;
 }
+.project__links a.ilink {
+    margin: 0 0.2rem 0 0;
+    font-weight: 600;
+    color: #1e65e3;
+    text-decoration: none;
+}
+.project__links a.ilink:hover {
+    color: #6929e6;
+    transition: 250ms;
+    text-shadow: 0px 0px 10px #e8c9fa;
+}
 @media (max-width: 850px) {
     .pr__container {
         flex-direction: column-reverse;

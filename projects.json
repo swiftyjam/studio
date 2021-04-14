@@ -1,230 +1,282 @@
 {
-  "projects": [{
-      "title": "OnRails Trains and TFL",
-      "client": "Integrated Software Development ltd.",
-      "product": "Transport and Schedule",
-      "category": "App",
-      "desc": "The app displays live departure and arrival times for the next two hours for all stations in the UK. Mark favorites view recently departed services and get live station information from the national rail feed. Useful details like a number of coaches, platform number and reasons for delay or cancellation are shown where available.\n\nData is provided under license from National Rail. A TFL tube status screen is also available for London commuters.",
-      "done": [
-        "Branding",
-        "App UX/UI"
-      ],
-      "team": [
-        "Swifty Jam",
-        "Awais Zaka"
-      ],
-      "gallery": [
-        [
-          "projects/onrails/pics/onra1.png"
-        ],
-        [
-          "projects/onrails/pics/onra2.png",
-          "projects/onrails/pics/onra3.png",
-          "projects/onrails/pics/onra4.png"
-        ],
-        [
-          "projects/onrails/pics/onra5.png",
-          "projects/onrails/pics/onra6.png"
-        ],
-        [
-          "projects/onrails/pics/onra7.png",
-          "projects/onrails/pics/onra8.png",
-          "projects/onrails/pics/onra9.png",
-          "projects/onrails/pics/onra10.png"
-        ]
-      ],
-      "timeline": "3 weeks",
-      "logo": "projects/wekul/pics/logo.svg",
-      "bg": "projects/onrails/pics/onra1.png",
-      "maincolor": "71,77,116",
-      "linkdesc": "We developed a full UX UI design for OnRails.",
-      "keywords": "Design, Web, UX, UI, Branding, App"
-    },
-    {
-      "title": "Murcia Turistica",
-      "client": "Instituto de Turismo Region de Murcia",
-      "product": "Tourism and Travel",
-      "category": "UX UI, Web, App",
-      "desc": "I had the luck of working with the Tourism Institute of Region de Murcia in this exciting project. Together, we went through all their content and we figured out how to restyle, restructure, rebrand and give a new focus to their UX/UI. The need for providing a cleaner user experience made this website improve their visibility and usability! Congrats team :D",
-      "done": [
-        "Branding",
-        "Web UX/UI",
-        "App UX/UI"
-      ],
-      "team": [
-        "Samuel Javaloyes",
-        "Ariad Consultancy",
-        "Toñi Gallego"
-      ],
-      "gallery": [
-        [
-          "projects/murcia/pics/murci2.png"
-        ],
-        [
-          "projects/murcia/pics/murci4.png",
-          "projects/murcia/pics/murci5.png"
-        ],
-        [
-          "projects/murcia/pics/murci7.png",
-          "projects/murcia/pics/murci6.png",
-          "projects/murcia/pics/murci8.png"
+    "projects": [{
+            "title": "Swifty Jam's Space",
+            "client": "Samuel Martinez Javaloyes",
+            "product": "New concept of 3D Orbital Navigation",
+            "category": "Experiment, Portfolio",
+            "desc": "I'm trying to create a new concept of gesture and 3D Navigation concept at the moment. The idea is to be able to reach a huge quantity of data in a 3D environment using a Golden Ratio longitude method for evenly distributed spheres, and a angled tree distribution for the branches, usign a natural gesture flow to move around and access the data. It can have uses in many big data applications, and I will test it in my new portfolio!",
+            "done": [
+                "Web GL Engine",
+                "UX/UI"
+            ],
+            "team": [
+                "Swifty Jam"
+            ],
+            "gallery": [
+                [
+                    "projects/swifty/pics/sw5.png"
+                ],
+                [
+                    "projects/swifty/pics/sw3.gif",
+                    "projects/swifty/pics/sw4.gif"
+                ],
+                [
+                    "projects/swifty/pics/sw1.png",
+                    "projects/swifty/pics/sw2.png"
+                ]
 
-
-        ],
-        [
-          "projects/murcia/pics/murci1.png"
-        ]
-      ],
-      "timeline": "2 months",
-      "logo": "projects/wekul/pics/logo.svg",
-      "bg": "projects/murcia/pics/foto2.png",
-      "maincolor": "53, 205, 225",
-      "linkdesc": "We developed a full UX UI design for Murcia Turistica.",
-      "keywords": "Design, Web, UX, UI, Branding, App"
-    },
-    {
-      "title": "Shop for the nature",
-      "client": "Wekult",
-      "product": "E-commerce",
-      "category": "Web",
-      "desc": "We developed a full brand project for this company. Wekult is a company related with natural products that wants to be innovative and scientificaly advanced on the field, without losing the essence. We tryed to reflect this through this brand and web design.",
-      "done": [
-        "Branding",
-        "Website",
-        "Merch"
-      ],
-      "team": [
-        "Swifty Jam",
-        "Hector R."
-      ],
-      "gallery": [
-        [
-          "projects/murcia/pics/wek1.png",
-          "projects/wekult/pics/wek2.png"
-        ],
-        [
-          "projects/wekult/pics/wek3.png",
-          "projects/wekult/pics/wek4.png",
-          "projects/wekult/pics/wek5.png",
-          "projects/wekult/pics/wek6.png"
-        ],
-        [
-          "projects/wekult/pics/wek7.png"
-        ],
-        [
-          "projects/wekult/pics/wek8.png",
-          "projects/wekult/pics/wek9.png",
-          "projects/wekult/pics/wek10.png"
-        ]
-      ],
-      "timeline": "2 weeks",
-      "logo": "projects/wekult/pics/logo.svg",
-      "bg": "projects/wekult/pics/wek1.png",
-      "maincolor": "139,195,74",
-      "linkdesc": "We developed a full brand project for this company.",
-      "keywords": "Design, Web, UX, UI, Branding, Ecommerce"
-    },
-    {
-      "title": "Sennheiser (Un-Official)",
-      "client": "Simulate",
-      "product": "Product Presentation",
-      "category": "Design",
-      "desc": "When I made the 3D model and rendering of the Sennheiser URBANITE, I wanted to recreate a clean product brochure. I used image blending modes as the protagonist style of the brochure while representing the solidness and endurance of the product comparing it to the massive and untamable environments of earth, including the city.",
-      "done": [
-        "Graphic Design",
-        "3D Design"
-      ],
-      "team": [
-        "Swifty Jam"
-      ],
-      "gallery": [
-        [
-          "projects/urbanite/pics/sen1.jpg",
-          "projects/urbanite/pics/sen2.jpg"
-        ],
-        [
-          "projects/urbanite/pics/sen3.jpg",
-          "projects/urbanite/pics/sen4.jpg"
-        ],
-        [
-          "projects/urbanite/pics/sen5.jpg",
-          "projects/urbanite/pics/sen6.jpg"
-        ]
-      ],
-      "timeline": "1 week",
-      "logo": "projects/wekul/pics/logo.svg",
-      "bg": "projects/urbanite/pics/sen2.jpg",
-      "maincolor": "38,46,65",
-      "linkdesc": "We developed a Project Presentation for Simulate.",
-      "keywords": "Design, 3D Design, Brochure, Graphic Design"
-    },
-    {
-      "title": "Placed App Website",
-      "client": "Placed ltd.",
-      "product": "Recruitment",
-      "category": "Web",
-      "desc": "Collaborated with the full-stack developer Bill Purvis on the creation of UX/UI and also Front-end of the Placed-app website development. We aimed to create a fluid experience of navigation and clear information. Here you can see the main landing page.",
-      "done": [
-        "Front-end Dev",
-        "UX/UI"
-      ],
-      "team": [
-        "Swifty Jam",
-        "Bill Purvis"
-      ],
-      "gallery": [
-        [
-          "projects/placed/pics/pla1.png"
-        ]
-      ],
-      "timeline": "1'5 weeks",
-      "logo": "projects/wekul/pics/logo.svg",
-      "bg": "projects/placed/pics/pla1.png",
-      "maincolor": "220,190,0",
-      "linkdesc": "We developed a full UX UI and web development for Placed App.",
-      "keywords": "Design, Web, UX, UI, Front End, Placed App"
-    },
-    {
-      "title": "Back In the Dayz",
-      "client": "Swifty Jam",
-      "product": "Illustration Add",
-      "category": "Design",
-      "desc": "Made this illustration in honour of Nintendo. A fan art that we use to represent ourselves and what can we do testing our limits.  We do this often!",
-      "done": [
-        "3D Modeling",
-        "Editing"
-      ],
-      "team": [
-        "Swifty Jam"
-      ],
-      "gallery": [
-        [
-          "projects/bitd/pics/bitd1.jpg"
-        ],
-        [
-          "projects/bitd/pics/bitd2.png",
-          "projects/bitd/pics/bitd3.png"
-        ],
-        [
-          "projects/bitd/pics/bitd4.png",
-          "projects/bitd/pics/bitd5.png",
-          "projects/bitd/pics/bitd6.png"
-        ],
-        [
-          "projects/bitd/pics/bitd7.png",
-          "projects/bitd/pics/bitd8.png",
-          "projects/bitd/pics/bitd9.png"
-        ],
-        [
-          "projects/bitd/pics/bitd10.png"
-        ]
-      ],
-      "timeline": "1'5 weeks",
-      "logo": "none",
-      "bg": "projects/bitd/pics/bitd1.jpg",
-      "maincolor": "42,56,75",
-      "linkdesc": "We developed a full self-purposed Add Illustration.",
-      "keywords": "Design, 3D, Illustration, Lettering"
-    }
-  ]
+            ],
+            "timeline": "In progress",
+            "maincolor": "28,32,43",
+            "logo": "projects/swifty/pics/logo.svg",
+            "bg": "projects/swifty/pics/sw5.png",
+            "links": [{
+                "name": "Try it! (Heroku, let it start up...)",
+                "to": "http://swiftyjam-space.herokuapp.com/"
+            }],
+            "linkdesc": "We developed an Experiment design for Swifty Jam.",
+            "keywords": "Design, Web, UX, UI, Branding, App"
+        },
+        {
+            "title": "Quasmic",
+            "client": "University of Alicante",
+            "product": "Astronomical Observation. Research",
+            "category": "App",
+            "desc": "This time, we explored a new way to represent big quantity of data in a visual and comfortable way for astronomers and sky photographers. Quasmic is a social ennhaced tool that lets you navigate through the known universe and see what other observers have published about an astronomical body in a slick way. We develope from 0% to 100%, even creating our own Graphic Engine with WebGL",
+            "done": [
+                "UX/UI",
+                "DevOps",
+                "Full Stack"
+            ],
+            "team": [
+                "Samuel M.J.",
+                "Esther Navarro",
+                "Mario Díaz",
+                "Ada Caravaca",
+                "Antonio Hernandez"
+            ],
+            "gallery": [
+                [
+                    "projects/quasmic/pics/qsm4.png"
+                ],
+                [
+                    "projects/quasmic/pics/qsm1.png",
+                    "projects/quasmic/pics/qsm3.png"
+                ],
+                [
+                    "projects/quasmic/pics/qsm2.gif"
+                ]
+            ],
+            "timeline": "9 months",
+            "maincolor": "138,142,246",
+            "logo": "projects/quasmic/pics/logo.svg",
+            "bg": "projects/quasmic/pics/bg.png",
+            "links": [{
+                "name": "Video Demostration (Spanish)",
+                "to": "https://www.youtube.com/watch?v=czboD54cjeE"
+            }],
+            "linkdesc": "We developed a full Web App for University of Alicante.",
+            "keywords": "Design, Web, UX, UI, Branding, App"
+        },
+        {
+            "title": "Monkbag",
+            "client": "Monkbag",
+            "product": "Natural Medicine Suggestions",
+            "category": "App",
+            "desc": "Created from scratch an App that can be used as a vademecum to consult a huge plant database for phitotherapy use, full of rich content and data. Also it will generate suggestions to treat the conditions you throw at it, creating an complex match to find the optimal combination of plants based also on user's personal data. This project was designed and developed with its bussiness, and its already registered in a funding process",
+            "done": [
+                "Branding",
+                "UX/UI",
+                "Full Stack Dev",
+                "Bussines model"
+            ],
+            "team": [
+                "Samuel M. J."
+            ],
+            "gallery": [
+                [
+                    "projects/monkbag/pics/mon4.png",
+                    "projects/monkbag/pics/mon5.png",
+                    "projects/monkbag/pics/mon6.png"
+                ],
+                [
+                    "projects/monkbag/pics/mon7.png",
+                    "projects/monkbag/pics/mon8.png"
+                ],
+                [
+                    "projects/monkbag/pics/mon1.png",
+                    "projects/monkbag/pics/mon2.png",
+                    "projects/monkbag/pics/mon3.png"
+                ]
+            ],
+            "timeline": "3 weeks",
+            "maincolor": "0,185,141",
+            "logo": "projects/monkbag/pics/logo.svg",
+            "bg": "projects/monkbag/pics/bg.png",
+            "linkdesc": "We developed a full project for Monkbag.",
+            "keywords": "Design, UX, UI, Branding, App"
+        },
+        {
+            "title": "Nonstap",
+            "client": "Torrevieja City Hall",
+            "product": "Tourism",
+            "category": "App",
+            "desc": "App Design and Prototype made for the cityhall of Torrevieja to improve its tourism flow. The idea was to simplify through the interface a complex AI that would calculate the best places to visit having in count traffic, population, weather, sentiment, reviews... The result was translated to a three-step app that has a Tinder vibe, launching the user to the adventure as soon as it opens it!",
+            "done": [
+                "Branding",
+                "App UX/UI"
+            ],
+            "team": [
+                "Samuel M. J.",
+                "Esther Navarro",
+                "Mario Díaz",
+                "Ada Caravaca"
+            ],
+            "gallery": [
+                [
+                    "projects/nonstap/pics/non1.png",
+                    "projects/nonstap/pics/non2.png",
+                    "projects/nonstap/pics/non3.png"
+                ],
+                [
+                    "projects/nonstap/pics/non3.1.jpg"
+                ],
+                [
+                    "projects/nonstap/pics/non4.png",
+                    "projects/nonstap/pics/non5.png",
+                    "projects/nonstap/pics/non6.png"
+                ]
+            ],
+            "links": [{
+                    "name": "Video demonstration",
+                    "to": "https://www.linkedin.com/posts/javaloy_hackeatudestino-hackathon-activity-6605109723392016385-aVZJ"
+                },
+                {
+                    "name": "Best Design for AI Award",
+                    "to": "https://www.linkedin.com/posts/big-data-asociacion_hackea-tu-destino-activity-6605021456487317504-oWMf"
+                }
+            ],
+            "timeline": "2 days",
+            "logo": "projects/nonstap/pics/logo.svg",
+            "bg": "projects/nonstap/pics/bg.png",
+            "maincolor": "199,145,9",
+            "linkdesc": "Developed a full UX UI design for Nonstap.",
+            "keywords": "Design, Web, UX, UI, Branding, App"
+        },
+        {
+            "title": "OnRails Trains and TFL",
+            "client": "Integrated Software Development ltd.",
+            "product": "Transport and Schedule",
+            "category": "App",
+            "desc": "The app displays live departure and arrival times for the next two hours for all stations in the UK. Mark favorites view recently departed services and get live station information from the national rail feed. Useful details like a number of coaches, platform number and reasons for delay or cancellation are shown where available.\n\nData is provided under license from National Rail. A TFL tube status screen is also available for London commuters.",
+            "done": [
+                "Branding",
+                "App UX/UI"
+            ],
+            "team": [
+                "Swifty Jam",
+                "Awais Zaka"
+            ],
+            "gallery": [
+                [
+                    "projects/onrails/pics/onra1.png"
+                ],
+                [
+                    "projects/onrails/pics/onra2.png",
+                    "projects/onrails/pics/onra3.png",
+                    "projects/onrails/pics/onra4.png"
+                ],
+                [
+                    "projects/onrails/pics/onra5.png",
+                    "projects/onrails/pics/onra6.png"
+                ],
+                [
+                    "projects/onrails/pics/onra7.png",
+                    "projects/onrails/pics/onra8.png",
+                    "projects/onrails/pics/onra9.png",
+                    "projects/onrails/pics/onra10.png"
+                ]
+            ],
+            "timeline": "3 weeks",
+            "logo": "projects/wekul/pics/logo.svg",
+            "bg": "projects/onrails/pics/onra1.png",
+            "maincolor": "71,77,116",
+            "links": [{
+                "name": "Download the App",
+                "to": "https://play.google.com/store/apps/details?id=com.intsoftdev.nationalrail&hl=en_US&gl=US"
+            }],
+            "linkdesc": "We developed a full UX UI design for OnRails.",
+            "keywords": "Design, Web, UX, UI, Branding, App"
+        },
+        {
+            "title": "Murcia Turistica",
+            "client": "Instituto de Turismo Region de Murcia",
+            "product": "Tourism and Travel",
+            "category": "UX UI, Web, App",
+            "desc": "I had the luck of working with the Tourism Institute of Region de Murcia in this exciting project. Together, we went through all their content and we figured out how to restyle, restructure, rebrand and give a new focus to their UX/UI. The need for providing a cleaner user experience made this website improve their visibility and usability! Congrats team :D",
+            "done": [
+                "Branding",
+                "Web UX/UI",
+                "App UX/UI"
+            ],
+            "team": [
+                "Samuel Javaloyes",
+                "Ariad Consultancy",
+                "Toñi Gallego"
+            ],
+            "gallery": [
+                [
+                    "projects/murcia/pics/murci2.png"
+                ],
+                [
+                    "projects/murcia/pics/murci4.png",
+                    "projects/murcia/pics/murci5.png"
+                ],
+                [
+                    "projects/murcia/pics/murci7.png",
+                    "projects/murcia/pics/murci6.png",
+                    "projects/murcia/pics/murci8.png"
+                ],
+                [
+                    "projects/murcia/pics/murci1.png"
+                ]
+            ],
+            "timeline": "2 months",
+            "logo": "projects/wekul/pics/logo.svg",
+            "bg": "projects/murcia/pics/foto2.png",
+            "links": [{
+                "name": "Murcia Turística, Gobierno de España ",
+                "to": "https://www.murciaturistica.es/"
+            }],
+            "maincolor": "53, 205, 225",
+            "linkdesc": "We developed a full UX UI design for Murcia Turistica.",
+            "keywords": "Design, Web, UX, UI, Branding, App"
+        },
+        {
+            "title": "Placed App Website",
+            "client": "Placed ltd.",
+            "product": "Recruitment",
+            "category": "Web",
+            "desc": "Collaborated with the full-stack developer Bill Purvis on the creation of UX/UI and also Front-end of the Placed-app website development. We aimed to create a fluid experience of navigation and clear information. Here you can see the main landing page.",
+            "done": [
+                "Front-end Dev",
+                "UX/UI"
+            ],
+            "team": [
+                "Swifty Jam",
+                "Bill Purvis"
+            ],
+            "gallery": [
+                [
+                    "projects/placed/pics/pla1.png"
+                ]
+            ],
+            "timeline": "1'5 weeks",
+            "logo": "projects/wekul/pics/logo.svg",
+            "bg": "projects/placed/pics/pla1.png",
+            "maincolor": "220,190,0",
+            "linkdesc": "We developed a full UX UI and web development for Placed App.",
+            "keywords": "Design, Web, UX, UI, Front End, Placed App"
+        }
+    ]
 }
