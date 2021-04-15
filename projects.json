@@ -83,7 +83,7 @@
             "client": "Monkbag",
             "product": "Natural Medicine Suggestions",
             "category": "App",
-            "desc": "Created from scratch an App that can be used as a vademecum to consult a huge plant database for phitotherapy use, full of rich content and data. Also it will generate suggestions to treat the conditions you throw at it, creating an complex match to find the optimal combination of plants based also on user's personal data. This project was designed and developed with its bussiness, and its already registered in a funding process",
+            "desc": "Created from scratch an App that can be used as a vademecum to consult a huge plant database for phitotherapy use, full of rich content and data. Also it will generate suggestions to treat the conditions you throw at it, creating a complex match to find the optimal combination of plants based also on user's personal data. This project was designed and developed with its own business model, and its already registered in a funding process",
             "done": [
                 "Branding",
                 "UX/UI",
@@ -109,7 +109,7 @@
                     "projects/monkbag/pics/mon3.png"
                 ]
             ],
-            "timeline": "3 weeks",
+            "timeline": "5 months",
             "maincolor": "0,185,141",
             "logo": "projects/monkbag/pics/logo.svg",
             "bg": "projects/monkbag/pics/bg.png",

@@ -25,7 +25,6 @@ function loadProject() {
     $.getJSON("projects.json", function(data) {
         if (0 != data.projects.length) {
             id = $_GET("id");
-            console.log(id)
             html = "",
                 html += '<section class="projectIntro">',
                 html += ' <div class="pr__container">',
@@ -58,7 +57,7 @@ function loadProject() {
                 html += ' <h3>' + data.projects[id].client + '</h3>',
                 html += ' <h1>' + data.projects[id].title + '</h1>',
                 html += ' <p>' + data.projects[id].desc + '</p>';
-            if (data.projects[id].links.length > 0) {
+            if (data.projects[id].links !== undefined && data.projects[id].links.length > 0) {
                 html += ' <h3>Interesting links</h3>',
                     html += ' <div class="project__links">';
                 for (let lindex = 0; lindex < data.projects[id].links.length; lindex++) {
@@ -76,7 +75,7 @@ function loadProject() {
             for (i = 0; i < data.projects[id].gallery.length; i++) {
                 html += '<div>';
                 for (c = 0; c < data.projects[id].gallery[i].length; c++) {
-                    html += '<a href="#"><img src="' + data.projects[id].gallery[i][c] + '" alt=""></a>';
+                    html += '<a href="' + data.projects[id].gallery[i][c] + '"><img src="' + data.projects[id].gallery[i][c] + '" alt=""></a>';
                 }
                 html += '</div>';
             }
@@ -150,8 +149,7 @@ $('.skillbar').each(function() {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
-    console.log("height: " + window.innerHeight + "scroll: " + currentScrollPos)
-        // if (prevScrollpos > currentScrollPos) {
+    // if (prevScrollpos > currentScrollPos) {
     if (document.getElementById("hooke") != null) {
         if (currentScrollPos > window.innerHeight) {
             // document.getElementById("hooke").style.top = "-300px";
